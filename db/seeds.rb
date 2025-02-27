@@ -1,9 +1,20 @@
-# This file should ensure the existence of records required to run the application in every environment (production,
-# development, test). The code here should be idempotent so that it can be executed at any point in every environment.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Example:
-#
-#   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
-#     MovieGenre.find_or_create_by!(name: genre_name)
-#   end
+Movie.create!(title: "O Poderoso Chefão", overview: "A saga da família mafiosa Corleone.", poster_url: "https://example.com/godfather.jpg", rating: 9.2)
+Movie.create!(title: "Interestelar", overview: "Uma jornada pelo espaço em busca de um novo lar para a humanidade.", poster_url: "https://example.com/interstellar.jpg", rating: 8.6)
+Movie.create!(title: "Clube da Luta", overview: "Um insatisfeito executivo de escritório encontra um novo propósito na luta.", poster_url: "https://example.com/fightclub.jpg", rating: 8.8)
+Movie.create!(title: "Pulp Fiction", overview: "Histórias interligadas de crime e redenção.", poster_url: "https://example.com/pulpfiction.jpg", rating: 8.9)
+Movie.create!(title: "Matrix", overview: "Um hacker descobre a verdade sobre sua realidade.", poster_url: "https://example.com/matrix.jpg", rating: 8.7)
+Movie.create!(title: "Senhor dos Anéis: A Sociedade do Anel", overview: "Frodo parte em uma jornada para destruir o Um Anel.", poster_url: "https://example.com/lotr.jpg", rating: 8.8)
+Movie.create!(title: "O Rei Leão", overview: "A jornada de Simba para se tornar rei.", poster_url: "https://example.com/lionking.jpg", rating: 8.5)
+Movie.create!(title: "Forrest Gump", overview: "Um homem simples testemunha grandes eventos históricos.", poster_url: "https://example.com/forrestgump.jpg", rating: 8.8)
+Movie.create!(title: "Titanic", overview: "Um romance trágico a bordo do Titanic.", poster_url: "https://example.com/titanic.jpg", rating: 7.8)
+Movie.create!(title: "Os Infiltrados", overview: "Um jogo de gato e rato entre polícia e máfia.", poster_url: "https://example.com/departed.jpg", rating: 8.5)
+Movie.create!(title: "Django Livre", overview: "Um escravo liberto busca vingança.", poster_url: "https://example.com/django.jpg", rating: 8.4)
+Movie.create!(title: "O Cavaleiro das Trevas", overview: "Batman enfrenta seu maior inimigo, o Coringa.", poster_url: "https://example.com/darkknight.jpg", rating: 9.0)
+Movie.create!(title: "A Origem", overview: "Um ladrão invade sonhos para implantar ideias.", poster_url: "https://example.com/inception.jpg", rating: 8.8)
+Movie.create!(title: "Whiplash", overview: "Um jovem baterista busca a perfeição a qualquer custo.", poster_url: "https://example.com/whiplash.jpg", rating: 8.5)
+Movie.create!(title: "Coringa", overview: "A origem sombria do maior vilão de Gotham.", poster_url: "https://example.com/joker.jpg", rating: 8.4)
+Movie.create!(title: "Parasita", overview: "Uma família pobre se infiltra na casa de uma família rica.", poster_url: "https://example.com/parasite.jpg", rating: 8.6)
+Movie.create!(title: "Gladiador", overview: "Um general romano busca vingança contra o imperador.", poster_url: "https://example.com/gladiator.jpg", rating: 8.5)
+Movie.create!(title: "Blade Runner 2049", overview: "Um caçador de androides descobre um segredo que pode mudar o mundo.", poster_url: "https://example.com/bladerunner.jpg", rating: 8.0)
+Movie.create!(title: "Os Vingadores", overview: "Os heróis mais poderosos da Terra unem forças contra Loki.", poster_url: "https://example.com/avengers.jpg", rating: 8.0)
+Movie.create!(title: "Toy Story", overview: "A história dos brinquedos que ganham vida.", poster_url: "https://example.com/toystory.jpg", rating: 8.3)
